@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5056467720231227006F0C38 /* VenusRenderingAppController.mm in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50564675202311E7006F0C38 /* VenusRenderingAppController.mm */; };
+		50B8AB3F20219AF50092BB99 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B8AB3E20219AF50092BB99 /* Test.cpp */; };
+		50B8AB4720219BEA0092BB99 /* libVenusRendering.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50B8AB22202190250092BB99 /* libVenusRendering.a */; };
+		50B8C657202478CC00CA121F /* VeFoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B8C653202478CC00CA121F /* VeFoundation.cpp */; };
+		50B8C658202478CC00CA121F /* Venus3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B8C656202478CC00CA121F /* Venus3D.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50B8AB20202190250092BB99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SRCROOT)/../../../PluginTest/Assets/Plugins/iOS";
+			dstSubfolderSpec = 0;
+			files = (
+				5056467720231227006F0C38 /* VenusRenderingAppController.mm in CopyFiles */,
+				50B8AB4720219BEA0092BB99 /* libVenusRendering.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50564675202311E7006F0C38 /* VenusRenderingAppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VenusRenderingAppController.mm; sourceTree = "<group>"; };
+		50B8AB22202190250092BB99 /* libVenusRendering.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVenusRendering.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B8AB3E20219AF50092BB99 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test.cpp; path = ../../Source/Test.cpp; sourceTree = "<group>"; };
+		50B8AB4120219B060092BB99 /* IUnityGraphicsD3D12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsD3D12.h; path = ../../Source/Unity/IUnityGraphicsD3D12.h; sourceTree = "<group>"; };
+		50B8AB4220219B060092BB99 /* IUnityGraphicsD3D9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsD3D9.h; path = ../../Source/Unity/IUnityGraphicsD3D9.h; sourceTree = "<group>"; };
+		50B8AB4320219B060092BB99 /* IUnityGraphicsD3D11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsD3D11.h; path = ../../Source/Unity/IUnityGraphicsD3D11.h; sourceTree = "<group>"; };
+		50B8AB4420219B060092BB99 /* IUnityInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityInterface.h; path = ../../Source/Unity/IUnityInterface.h; sourceTree = "<group>"; };
+		50B8AB4520219B060092BB99 /* IUnityGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphics.h; path = ../../Source/Unity/IUnityGraphics.h; sourceTree = "<group>"; };
+		50B8AB4620219B060092BB99 /* IUnityGraphicsMetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsMetal.h; path = ../../Source/Unity/IUnityGraphicsMetal.h; sourceTree = "<group>"; };
+		50B8C646202478CC00CA121F /* VePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VePlatform.h; sourceTree = "<group>"; };
+		50B8C648202478CC00CA121F /* VeLinuxPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeLinuxPlatform.h; sourceTree = "<group>"; };
+		50B8C64A202478CC00CA121F /* VeWindowsPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeWindowsPlatform.h; sourceTree = "<group>"; };
+		50B8C64C202478CC00CA121F /* rtti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtti.h; sourceTree = "<group>"; };
+		50B8C64D202478CC00CA121F /* allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocator.h; sourceTree = "<group>"; };
+		50B8C64E202478CC00CA121F /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		50B8C64F202478CC00CA121F /* vtd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vtd.h; sourceTree = "<group>"; };
+		50B8C650202478CC00CA121F /* spin_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spin_lock.h; sourceTree = "<group>"; };
+		50B8C651202478CC00CA121F /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		50B8C652202478CC00CA121F /* string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string.h; sourceTree = "<group>"; };
+		50B8C653202478CC00CA121F /* VeFoundation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VeFoundation.cpp; sourceTree = "<group>"; };
+		50B8C654202478CC00CA121F /* VeFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeFoundation.h; sourceTree = "<group>"; };
+		50B8C655202478CC00CA121F /* Venus3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venus3D.h; sourceTree = "<group>"; };
+		50B8C656202478CC00CA121F /* Venus3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Venus3D.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B8AB1F202190250092BB99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B8AB19202190250092BB99 = {
+			isa = PBXGroup;
+			children = (
+				50B8AB3D20219AE70092BB99 /* VenusRendering */,
+				50B8AB23202190250092BB99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50B8AB23202190250092BB99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B8AB22202190250092BB99 /* libVenusRendering.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B8AB3D20219AE70092BB99 /* VenusRendering */ = {
+			isa = PBXGroup;
+			children = (
+				50B8AB4020219AF80092BB99 /* Unity */,
+				50B8C643202478CC00CA121F /* Venus3D */,
+				50B8AB3E20219AF50092BB99 /* Test.cpp */,
+				50564675202311E7006F0C38 /* VenusRenderingAppController.mm */,
+			);
+			name = VenusRendering;
+			sourceTree = "<group>";
+		};
+		50B8AB4020219AF80092BB99 /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				50B8AB4520219B060092BB99 /* IUnityGraphics.h */,
+				50B8AB4220219B060092BB99 /* IUnityGraphicsD3D9.h */,
+				50B8AB4320219B060092BB99 /* IUnityGraphicsD3D11.h */,
+				50B8AB4120219B060092BB99 /* IUnityGraphicsD3D12.h */,
+				50B8AB4620219B060092BB99 /* IUnityGraphicsMetal.h */,
+				50B8AB4420219B060092BB99 /* IUnityInterface.h */,
+			);
+			name = Unity;
+			sourceTree = "<group>";
+		};
+		50B8C643202478CC00CA121F /* Venus3D */ = {
+			isa = PBXGroup;
+			children = (
+				50B8C644202478CC00CA121F /* Foundation */,
+				50B8C655202478CC00CA121F /* Venus3D.h */,
+				50B8C656202478CC00CA121F /* Venus3D.cpp */,
+			);
+			name = Venus3D;
+			path = ../../Source/Venus3D;
+			sourceTree = "<group>";
+		};
+		50B8C644202478CC00CA121F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				50B8C645202478CC00CA121F /* Platform */,
+				50B8C64B202478CC00CA121F /* vtd */,
+				50B8C653202478CC00CA121F /* VeFoundation.cpp */,
+				50B8C654202478CC00CA121F /* VeFoundation.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		50B8C645202478CC00CA121F /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				50B8C646202478CC00CA121F /* VePlatform.h */,
+				50B8C647202478CC00CA121F /* Linux */,
+				50B8C649202478CC00CA121F /* Windows */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		50B8C647202478CC00CA121F /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				50B8C648202478CC00CA121F /* VeLinuxPlatform.h */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		50B8C649202478CC00CA121F /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				50B8C64A202478CC00CA121F /* VeWindowsPlatform.h */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		50B8C64B202478CC00CA121F /* vtd */ = {
+			isa = PBXGroup;
+			children = (
+				50B8C64C202478CC00CA121F /* rtti.h */,
+				50B8C64D202478CC00CA121F /* allocator.h */,
+				50B8C64E202478CC00CA121F /* array.h */,
+				50B8C64F202478CC00CA121F /* vtd.h */,
+				50B8C650202478CC00CA121F /* spin_lock.h */,
+				50B8C651202478CC00CA121F /* vector.h */,
+				50B8C652202478CC00CA121F /* string.h */,
+			);
+			path = vtd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B8AB21202190250092BB99 /* VenusRendering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B8AB2B202190250092BB99 /* Build configuration list for PBXNativeTarget "VenusRendering" */;
+			buildPhases = (
+				50B8AB1E202190250092BB99 /* Sources */,
+				50B8AB1F202190250092BB99 /* Frameworks */,
+				50B8AB20202190250092BB99 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenusRendering;
+			productName = VenusRendering;
+			productReference = 50B8AB22202190250092BB99 /* libVenusRendering.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B8AB1A202190250092BB99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Albert Yang";
+				TargetAttributes = {
+					50B8AB21202190250092BB99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50B8AB1D202190250092BB99 /* Build configuration list for PBXProject "VenusRendering" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50B8AB19202190250092BB99;
+			productRefGroup = 50B8AB23202190250092BB99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B8AB21202190250092BB99 /* VenusRendering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B8AB1E202190250092BB99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B8AB3F20219AF50092BB99 /* Test.cpp in Sources */,
+				50B8C658202478CC00CA121F /* Venus3D.cpp in Sources */,
+				50B8C657202478CC00CA121F /* VeFoundation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50B8AB29202190250092BB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50B8AB2A202190250092BB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B8AB2C202190250092BB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B8AB2D202190250092BB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B8AB1D202190250092BB99 /* Build configuration list for PBXProject "VenusRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B8AB29202190250092BB99 /* Debug */,
+				50B8AB2A202190250092BB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B8AB2B202190250092BB99 /* Build configuration list for PBXNativeTarget "VenusRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B8AB2C202190250092BB99 /* Debug */,
+				50B8AB2D202190250092BB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B8AB1A202190250092BB99 /* Project object */;
+}

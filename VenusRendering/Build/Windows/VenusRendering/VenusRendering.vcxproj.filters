@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VenusRendering">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="VenusRendering\Unity">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VenusRendering\Venus3D">
+      <UniqueIdentifier>{31308599-bcb9-4240-aa24-0bd8bdfa025e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VenusRendering\Venus3D\Foundation">
+      <UniqueIdentifier>{4ff520d9-2679-4cd0-8954-22014f68d489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VenusRendering\Venus3D\Foundation\Platform">
+      <UniqueIdentifier>{c9171264-f876-4f54-a0c5-9d58d9babb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VenusRendering\Venus3D\Foundation\Platform\Windows">
+      <UniqueIdentifier>{a09e9f75-0931-48ae-93a6-2ad00f185975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VenusRendering\Venus3D\Foundation\Platform\Linux">
+      <UniqueIdentifier>{de7d9c51-4e59-44e4-9d04-e342c5299b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VenusRendering\Venus3D\Foundation\vtd">
+      <UniqueIdentifier>{001c9d1d-a944-42d2-b60d-3d97ed213b98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Source\Test.cpp">
+      <Filter>VenusRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Venus3D\Foundation\VeFoundation.cpp">
+      <Filter>VenusRendering\Venus3D\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Venus3D\Venus3D.cpp">
+      <Filter>VenusRendering\Venus3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\VenusRendering.cpp">
+      <Filter>VenusRendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Source\Unity\IUnityGraphics.h">
+      <Filter>VenusRendering\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Unity\IUnityGraphicsD3D9.h">
+      <Filter>VenusRendering\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Unity\IUnityGraphicsD3D11.h">
+      <Filter>VenusRendering\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Unity\IUnityGraphicsD3D12.h">
+      <Filter>VenusRendering\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Unity\IUnityGraphicsMetal.h">
+      <Filter>VenusRendering\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Unity\IUnityInterface.h">
+      <Filter>VenusRendering\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\VeFoundation.h">
+      <Filter>VenusRendering\Venus3D\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\Platform\VePlatform.h">
+      <Filter>VenusRendering\Venus3D\Foundation\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\Platform\Windows\VeWindowsPlatform.h">
+      <Filter>VenusRendering\Venus3D\Foundation\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\Platform\Linux\VeLinuxPlatform.h">
+      <Filter>VenusRendering\Venus3D\Foundation\Platform\Linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Venus3D.h">
+      <Filter>VenusRendering\Venus3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\vtd.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\allocator.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\vector.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\string.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\spin_lock.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\rtti.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Venus3D\Foundation\vtd\array.h">
+      <Filter>VenusRendering\Venus3D\Foundation\vtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\VenusRendering.h">
+      <Filter>VenusRendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

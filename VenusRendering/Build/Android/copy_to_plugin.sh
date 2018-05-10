@@ -1,0 +1,1 @@
+cp libs/armeabi-v7a/*.so ../../../PluginTest/Assets/Plugins/Android/libs/armeabi-v7a
